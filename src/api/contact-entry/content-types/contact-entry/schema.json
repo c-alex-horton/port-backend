@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_entries",
+  "info": {
+    "singularName": "contact-entry",
+    "pluralName": "contact-entries",
+    "displayName": "Contact Entry",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "work_request": {
+      "type": "boolean"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}

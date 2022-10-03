@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_homepage_experience_lists",
+  "info": {
+    "displayName": "experienceList",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "experiences": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::experience.experience"
+    }
+  }
+}

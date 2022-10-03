@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "displayName": "hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.hero"
+    },
+    "About": {
+      "displayName": "about",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.about"
+    },
+    "Projects": {
+      "displayName": "cardList",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.card-list"
+    },
+    "Experience": {
+      "displayName": "experienceList",
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.experience-list"
+    }
+  }
+}

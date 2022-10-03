@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_homepage_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subheading": {
+      "type": "string"
+    },
+    "background": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "scrollText": {
+      "type": "string"
+    }
+  }
+}

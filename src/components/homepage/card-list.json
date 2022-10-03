@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_homepage_card_lists",
+  "info": {
+    "displayName": "cardList",
+    "icon": "th-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    }
+  }
+}
